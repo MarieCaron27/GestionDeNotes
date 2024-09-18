@@ -1,0 +1,40 @@
+﻿<Window x:Class="QuizzPage.PageToShowQuizzes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizzPage"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="450" MaxHeight="450" MinWidth="960" MaxWidth="960" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Row="0" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>
+                <Run FontWeight="Bold" TextDecorations="Underline">Affichage de vos interrogations :</Run>
+            </TextBlock>
+        </Label>
+
+        <DataGrid Grid.Row="1" x:Name="dataGrid" SelectedItem="{Binding CurrentQuizz}" ItemsSource="{Binding ListQuizzes}" AutoGenerateColumns="False" CanUserAddRows="false" CanUserDeleteRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding QuizzId}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Intitulé de l'interrogation" Binding="{Binding QuizzTitle}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Date de l'interrogation" Binding="{Binding QuizzDate,StringFormat=dd/MM/yyyy}"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="Classe dans laquelle l'interrogation a été réalisée" Binding="{Binding QuizzClass.ClassName}" IsReadOnly="True" />
+                <DataGridTextColumn Header="Cours pour lequel l'interrogation a été réalisée" Binding="{Binding QuizzCourse}" IsReadOnly="True" />
+                <DataGridTextColumn Header="Total de l'interrogation" Binding="{Binding QuizzTotal}" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,30">
+            <Button Content="Modifier une interrogation" Width="150" Margin="5" Click="UpdateAQuizz_Click"/>
+            <Button Content="Supprimer une interrogation" Width="155" Margin="5" Click="DeleteAQuizz_Click"/>
+            <Button Content="Ajouter les résultats de l'interrogation" Width="210" Margin="5" Click="AddAGrade_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

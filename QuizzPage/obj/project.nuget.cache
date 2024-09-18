@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "70eNC3sSmeO7u5B2V2wChUDIdHef4z7+Re9Mkkn+wHvRXWkO66jxurhCjhiUwqzeyTyMZATztAQz/8zKquouLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Utilisateur\\Desktop\\Projets\\C#\\Gestion_de_notes\\QuizzPage\\QuizzPage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,229 @@
+{
+  "ListGrades": [
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "Id": 1,
+        "LastName": "Caron",
+        "FirstName": "Mathilde",
+        "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 1,
+        "QuizzTitle": "Interro",
+        "QuizzDate": "2024-06-04T00:00:00",
+        "QuizzClass": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 10,
+        "ResultsAdded": true
+      },
+      "Result": 5
+    },
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "Id": 2,
+        "LastName": "Couchard",
+        "FirstName": "Robin",
+        "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 1,
+        "QuizzTitle": "Interro",
+        "QuizzDate": "2024-06-04T00:00:00",
+        "QuizzClass": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 10,
+        "ResultsAdded": true
+      },
+      "Result": 1
+    },
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "Id": 3,
+        "LastName": "Darmon",
+        "FirstName": "Gérard",
+        "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 1,
+        "QuizzTitle": "Interro",
+        "QuizzDate": "2024-06-04T00:00:00",
+        "QuizzClass": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 10,
+        "ResultsAdded": true
+      },
+      "Result": 9
+    },
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "Id": 4,
+        "LastName": "Jourdan",
+        "FirstName": "Thibaud",
+        "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 1,
+        "QuizzTitle": "Interro",
+        "QuizzDate": "2024-06-04T00:00:00",
+        "QuizzClass": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 10,
+        "ResultsAdded": true
+      },
+      "Result": 10
+    },
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "Id": 5,
+        "LastName": "Lamy",
+        "FirstName": "Alexandra",
+        "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 1,
+        "QuizzTitle": "Interro",
+        "QuizzDate": "2024-06-04T00:00:00",
+        "QuizzClass": {
+          "ClassName": "1A",
+          "NbStudents": 5,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 10,
+        "ResultsAdded": true
+      },
+      "Result": 3
+    },
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "6C",
+          "NbStudents": 2,
+          "StudentAdded": true
+        },
+        "Id": 1,
+        "LastName": "Luigi",
+        "FirstName": "Luigi",
+        "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "6C",
+        "NbStudents": 2,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 2,
+        "QuizzTitle": "Examen",
+        "QuizzDate": "2024-06-05T00:00:00",
+        "QuizzClass": {
+          "ClassName": "6C",
+          "NbStudents": 2,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 20,
+        "ResultsAdded": true
+      },
+      "Result": 15
+    },
+    {
+      "StudentForGrade": {
+        "ClassStudent": {
+          "ClassName": "6C",
+          "NbStudents": 2,
+          "StudentAdded": true
+        },
+        "Id": 2,
+        "LastName": "Caprasse",
+        "FirstName": "Simon",
+        "Picture": "C:\\Users\\Utilisateur\\Pictures\\MarioAuKart\\Kart1.jpg"
+      },
+      "ClassForGrade": {
+        "ClassName": "6C",
+        "NbStudents": 2,
+        "StudentAdded": true
+      },
+      "QuizzForGrade": {
+        "QuizzId": 2,
+        "QuizzTitle": "Examen",
+        "QuizzDate": "2024-06-05T00:00:00",
+        "QuizzClass": {
+          "ClassName": "6C",
+          "NbStudents": 2,
+          "StudentAdded": true
+        },
+        "QuizzCourse": "Mathématiques",
+        "QuizzTotal": 20,
+        "ResultsAdded": true
+      },
+      "Result": 16
+    }
+  ],
+  "CurrentGrade": null
+}

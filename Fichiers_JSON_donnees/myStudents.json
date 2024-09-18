@@ -1,0 +1,147 @@
+{
+  "ListStudents": [
+    {
+      "ClassStudent": {
+        "ClassName": "2E",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 1,
+      "LastName": "Caron",
+      "FirstName": "Marie",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "2E",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 2,
+      "LastName": "Gainsbourg",
+      "FirstName": "Serge",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "2E",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 3,
+      "LastName": "Luciani",
+      "FirstName": "Clara",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "2E",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 4,
+      "LastName": "Roger",
+      "FirstName": "Pierre",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "2E",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 5,
+      "LastName": "Van Laeken",
+      "FirstName": "Ang\u00E8le",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 1,
+      "LastName": "Caron",
+      "FirstName": "Mathilde",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 2,
+      "LastName": "Couchard",
+      "FirstName": "Robin",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 3,
+      "LastName": "Darmon",
+      "FirstName": "G\u00E9rard",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 4,
+      "LastName": "Jourdan",
+      "FirstName": "Thibaud",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "Id": 5,
+      "LastName": "Lamy",
+      "FirstName": "Alexandra",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "6C",
+        "NbStudents": 2,
+        "StudentAdded": true
+      },
+      "Id": 1,
+      "LastName": "Luigi",
+      "FirstName": "Luigi",
+      "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+    },
+    {
+      "ClassStudent": {
+        "ClassName": "6C",
+        "NbStudents": 2,
+        "StudentAdded": true
+      },
+      "Id": 2,
+      "LastName": "Caprasse",
+      "FirstName": "Simon",
+      "Picture": "C:\\Users\\Utilisateur\\Pictures\\MarioAuKart\\Kart1.jpg"
+    }
+  ],
+  "CurrentStudent": {
+    "ClassStudent": {
+      "ClassName": "6C",
+      "NbStudents": 2,
+      "StudentAdded": true
+    },
+    "Id": 1,
+    "LastName": "Luigi",
+    "FirstName": "Luigi",
+    "Picture": "C:\\Users\\Utilisateur\\source\\repos\\Projet_final_CSharp_CARON\\Images\\defaultPersonImage.jpg"
+  }
+}

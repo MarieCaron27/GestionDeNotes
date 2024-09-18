@@ -1,0 +1,41 @@
+﻿<Window x:Class="GradePage.PageToShowGrades"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GradePage"
+        mc:Ignorable="d"
+        Title="Mon cahier de notes" MinHeight="450" MinWidth="800" MaxHeight="450" MaxWidth="800" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.25*"/>
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Row="0" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>
+        <Run FontWeight="Bold" TextDecorations="Underline">Affichage des résultats :</Run>
+            </TextBlock>
+        </Label>
+
+        <DataGrid Grid.Row="1" x:Name="dataGrid" SelectedItem="{Binding CurrentGrade}" ItemsSource="{Binding ListGrades}" AutoGenerateColumns="False" CanUserAddRows="false" CanUserDeleteRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Classe" Binding="{Binding ClassForGrade.ClassName}" IsReadOnly="True" Width="45"/>
+                <DataGridTextColumn Header="Nom" Binding="{Binding StudentForGrade.LastName}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Prénom" Binding="{Binding StudentForGrade.FirstName}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Intitulé de l'interrogation" Binding="{Binding QuizzForGrade.QuizzTitle,StringFormat=dd/MM/yyyy}"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="Note obtenue" Width="85" IsReadOnly="False">
+                    <DataGridTextColumn.Binding>
+                        <Binding Path="Result" StringFormat="N2" UpdateSourceTrigger="PropertyChanged"/>
+                    </DataGridTextColumn.Binding>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Total" Binding="{Binding QuizzForGrade.QuizzTotal}" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,30">
+            <Button Content="Enregistrer les notes" Width="150" Margin="5" Click="SaveGrade_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

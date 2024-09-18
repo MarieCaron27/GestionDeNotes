@@ -1,0 +1,20 @@
+{
+  "ListClasses": [
+    {
+      "ClassName": "2E",
+      "NbStudents": 5,
+      "StudentAdded": true
+    },
+    {
+      "ClassName": "1A",
+      "NbStudents": 5,
+      "StudentAdded": true
+    },
+    {
+      "ClassName": "6C",
+      "NbStudents": 2,
+      "StudentAdded": true
+    }
+  ],
+  "CurrentClass": null
+}

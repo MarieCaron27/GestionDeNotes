@@ -1,0 +1,50 @@
+﻿<Window x:Class="QuizzPage.FormToAddQuizz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizzPage"
+        mc:Ignorable="d"
+        Title="Mon cahier de notes" MinHeight="460" MaxHeight="460" MinWidth="330" MaxWidth="330" Closing="Window_Closing">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.25*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,25,0,25">
+                <Run TextDecorations="Underline" FontWeight="Bold">Ajouter une interrogation</Run>
+            </TextBlock>
+
+            <Label Content="Entrez son intitulé :" Grid.Row="1" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="16"/>
+            <TextBox x:Name="textBoxQuizzTitle" Grid.Row="1" Margin="0,90,0,30" HorizontalAlignment="Center" Width="210"/>
+
+            <Label Content="Entrez la date de l'interrogation :" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16"/>
+            <DatePicker Grid.Row="2" x:Name="dateOfQuizz" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,50,0,0"/>
+          
+            <Label Content="Entrez son cours :" Grid.Row="3" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="16"/>
+            <ComboBox x:Name="comboBoxCourseQuizz"  Grid.Row="3" Margin="0,90,0,30" HorizontalAlignment="Center" Width="210">
+                <ComboBoxItem>Français</ComboBoxItem>
+                <ComboBoxItem>Mathématiques</ComboBoxItem>
+                <ComboBoxItem>Sciences</ComboBoxItem>
+                <ComboBoxItem>Religion</ComboBoxItem>
+                <ComboBoxItem>Anglais</ComboBoxItem>
+                <ComboBoxItem>Histoire</ComboBoxItem>
+                <ComboBoxItem>Géographie</ComboBoxItem>
+                <ComboBoxItem>EDM</ComboBoxItem>
+            </ComboBox>
+
+            <Label Content="Entrez le total de l'interrogation :" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" FontSize="16"/>
+            <TextBox x:Name="textBoxQuizzTotal" TextAlignment="Center" Grid.Row="4" Margin="0,50,0,20" HorizontalAlignment="Center" Width="70"/>
+
+            <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,30">
+                <Button Content="Ajouter" Width="80" Margin="5" Click="AddQuizzClick"/>
+                <Button Content="Annuler" Width="80" Margin="5" Click="CancelAddQuizz"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>

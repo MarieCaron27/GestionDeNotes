@@ -1,0 +1,38 @@
+﻿<Window x:Class="StudentPage.FormToAddStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentPage"
+        mc:Ignorable="d"
+        Title="Mon cahier de notes" MinHeight="600" MinWidth="305" MaxHeight="600" MaxWidth="305">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.25*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,25,0,25">
+             <Run TextDecorations="Underline" FontWeight="Bold">Ajouter un élève</Run>
+            </TextBlock>
+
+            <Label Content="Entrez le nom de l'élève :" Grid.Row="1" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="16"/>
+            <TextBox x:Name="textBoxLastNameStudent" Grid.Row="1" Margin="0,90,0,30" HorizontalAlignment="Center" Width="210" Text="{Binding LastName,UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Label Content="Entrez le prénom de l'élève :" Grid.Row="2" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="16"/>
+            <TextBox x:Name="textBoxFirstNameStudent" Grid.Row="2" Margin="0,90,0,30" HorizontalAlignment="Center" Width="210" Text="{Binding FirstName,UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Button Grid.Row="3" x:Name="SelectImageButton" Content="Sélectionner une image" Click="SelectImageButton_Click"/>
+            <Image Grid.Row="3" x:Name="ProfileImage" Height="100" Width="100" />
+
+            <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,30">
+                <Button Content="Ajouter" Width="80" Margin="5" Click="AddStudentClick"/>
+                <Button Content="Annuler" Width="80" Margin="5" Click="CancelAddStudent"/>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>

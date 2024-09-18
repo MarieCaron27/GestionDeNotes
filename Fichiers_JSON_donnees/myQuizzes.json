@@ -1,0 +1,43 @@
+{
+  "ListQuizzes": [
+    {
+      "QuizzId": 1,
+      "QuizzTitle": "Interro",
+      "QuizzDate": "2024-06-04T00:00:00",
+      "QuizzClass": {
+        "ClassName": "1A",
+        "NbStudents": 5,
+        "StudentAdded": true
+      },
+      "QuizzCourse": "Math\u00E9matiques",
+      "QuizzTotal": 10,
+      "ResultsAdded": true
+    },
+    {
+      "QuizzId": 2,
+      "QuizzTitle": "Examen",
+      "QuizzDate": "2024-06-05T00:00:00",
+      "QuizzClass": {
+        "ClassName": "6C",
+        "NbStudents": 2,
+        "StudentAdded": true
+      },
+      "QuizzCourse": "Math\u00E9matiques",
+      "QuizzTotal": 20,
+      "ResultsAdded": true
+    }
+  ],
+  "CurrentQuizz": {
+    "QuizzId": 2,
+    "QuizzTitle": "Examen",
+    "QuizzDate": "2024-06-05T00:00:00",
+    "QuizzClass": {
+      "ClassName": "6C",
+      "NbStudents": 2,
+      "StudentAdded": true
+    },
+    "QuizzCourse": "Math\u00E9matiques",
+    "QuizzTotal": 20,
+    "ResultsAdded": true
+  }
+}
